@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: #6782AA;
+}
+
+.todo-app{
+  background-color: white;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.heading{
+  color: white;
+  background-color: #876BA9;
+  text-transform: capitalize;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: .5rem;
+}
+
+li{
+  color: #876BA9;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.input-sec{
+  margin-top: 5rem;
+}
+
+body input{
+  background-color: transparent;
+  border: none;
+  border-bottom: .2rem solid #876BA9;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  outline: none;
+  color: #876BA9;
+}
+
+body input::placeholder{
+  text-transform: capitalize;
+  text-align: center;
+}
+
+
+.add-todo-btn{
+  background-color: #876BA9;
+  border: none;
+  color: white;
+  border-radius: 100%;
+  padding: .5rem .8rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.add-todo-btn:hover{
+  background-color: rgb(65, 182, 65);
+}
+
+.del-todo{
+  background-color: #876BA9;
+  border: none;
+  color: white;
+  border-radius: 100%;
+  padding: .6rem .8rem;
+  transition: 0.5s;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+ul{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+}
+
+/* .item-sec{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+} */
+
+.rough{
+  border: .1rem solid black;
+}
