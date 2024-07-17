@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table{
+  border: .1rem solid black;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+thead{
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+td{
+  text-transform: capitalize;
+  transition: 0.5s;
+  padding: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.total-cases:hover{
+  background-color: orange;
+  color: white;
+}
+
+.total-death:hover{
+  background-color: red;
+  color: white;
+}
+
+.total-recovered:hover{
+  background-color: green;
+  color: white;
+}
+
+.my-row:hover{
+  background-color: gainsboro;
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
 }

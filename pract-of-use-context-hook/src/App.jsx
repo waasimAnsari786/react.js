@@ -1,12 +1,12 @@
 import './App.css';
 
 import React from 'react';
-import CovidData from './CovidData';
+import CovidData from './components/CovidData';
 
 const App = () => {
   return (
     <div className="App">
-      {/* <CovidData /> */}
+      <CovidData />
     </div>
   );
 };
